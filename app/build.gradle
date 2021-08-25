@@ -17,6 +17,9 @@ android {
         versionCode 1
         versionName "1.0"
 
+        // enables ability to use vector drawables for Android 21 and lower
+        vectorDrawables.useSupportLibrary = true
+
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
